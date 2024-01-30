@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//iterative code
 int binPower(int a, int b)
 {
     int ans=1;
@@ -18,6 +19,16 @@ int binPower(int a, int b)
     }
     return ans;
 }
+// recursive code
+// long long binpow(long long a, long long b) {
+//     if (b == 0)
+//         return 1;
+//     long long res = binpow(a, b / 2);
+//     if (b % 2)
+//         return res * res * a;
+//     else
+//         return res * res;
+// }
 int main()
 {
     int _t=1;
